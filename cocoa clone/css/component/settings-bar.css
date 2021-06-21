@@ -1,0 +1,14 @@
+.settings-bar{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
+.settings-bar__div:first-child{
+    margin-right: auto;
+}
+.settings-bar__div:last-child{
+    margin-left: auto;
+}
+.settings-bar__div:nth-child(2){
+    font-weight: 550;
+}

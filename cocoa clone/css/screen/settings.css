@@ -1,0 +1,22 @@
+.setting-list__span{
+    font-size: 17px;
+    font-weight: 450;
+}
+.setting-list__span:nth-child(2){
+    margin-left: 10px;
+}
+.setting-list{
+    margin: 17px 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.setting-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spanm{
+    opacity: 0.8;
+}

@@ -1,0 +1,107 @@
+.bodydiv{
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    background-color: tomato;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    background-color: #F9F9FA;
+    padding: 15px 50px;
+    padding-bottom: 0px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav__link{
+    color: black;
+    color: #2E363E;
+}
+.status-bar{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@keyframes notificationani{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: none;
+    }
+}
+
+
+.nav__notification{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: tomato;
+    font-size: 11px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position:relative;    
+    left: 10px;
+    bottom: 32px;
+    color: white;
+    animation: notificationani 1.5s ease-in-out infinite;
+}
+.nav_notification2{
+    height: 4.5px;
+    width: 4.5px;
+    background-color: tomato;
+    border-radius: 100%;
+    position: relative;
+    bottom: 26px;
+    left: 25px;
+}
+
+@keyframes nav__btnani{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+
+}
+
+.nav__btn{
+    transform: translateY(50px);
+    opacity: 0;
+    animation: nav__btnani 0.3s ease-in-out forwards;
+}
+
+.nav__btn:nth-child(2){
+    animation-delay: 0.2s;
+}
+.nav__btn:nth-child(3){
+    animation-delay: 0.5s;
+}
+.nav__btn:nth-child(4){
+    animation-delay: 0.8s;
+}
+
+@keyframes cogrotate{
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg)
+    }
+}
+
+.screen-status-bar__cog:hover{
+    animation: cogrotate 1s linear infinite;
+}

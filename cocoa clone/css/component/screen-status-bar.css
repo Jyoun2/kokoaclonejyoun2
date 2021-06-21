@@ -1,0 +1,15 @@
+.screen-status-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.screen-status-bar__icon span{
+    margin-right: 20px;
+}
+.screen-status-bar__span{
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 30px;
+}

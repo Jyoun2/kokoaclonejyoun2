@@ -1,0 +1,152 @@
+.Find__nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+}
+
+.Find__navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.Find__navber_span{
+    font-size: 14px;
+    width: 70px;
+    text-align: center;
+    margin-top: 15px;
+}
+.Find-Recommend__column2{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.Find-Recommend__column__span{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.Find-Recommend__column__span2{
+    font-size: 15px;
+    opacity: 0.6;
+}
+.openchat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.openchat-header__span{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.openchat-header div{
+    display: flex;
+    align-items: center;
+}
+.openchat-header__div span{
+    margin-right: 5px;
+}
+.openchat-header__div span i{
+    opacity: 0.4;
+}
+.openchat__column1__column{
+    display: flex;
+    flex-direction: column;
+}
+.openchatspan:first-child{
+    font-size: 20px;
+}
+.openchatspan:nth-child(2){
+    font-size: 13px;
+    opacity: 0.5;
+    margin-top: 4px;
+    text-transform: uppercase;
+}
+.openchatimg{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.openchat-bar{
+    width: 2px;
+    height: 20px;
+    background-color: black;
+    opacity: 0.1;
+    margin: 0px 5px;
+}
+.openchatspan:last-child{
+    display: flex;
+    align-items: center;
+}
+.opehchatspan_member{
+    font-size: 14px;
+    opacity: 0.6;
+    margin-left: 5px;
+}
+.opencahtspan_active{
+    font-size: 15px;
+    color: deeppink;
+}
+.openchatspan:nth-child(3){
+    margin-top: 5px;
+}
+.openchat__column1{
+    display: flex;
+}
+.openchatimg2{
+    width: 60px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.openchatimg2__love{
+    width: 40px;
+    height: 18px;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    position:relative;
+    left: 217px;
+    bottom: 20px;
+}
+.openchatimg2__love i{
+    font-size: 13px;
+    color: white;
+    margin: 0px 1px;
+    margin-left: 2px;
+}
+.openchatimg2__love span{
+    font-size: 10px;
+    color: white;
+}
+.openchat__column1{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.openchatm{
+    margin-top: 10px;
+}
+
+@keyframes heartbeat {
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform:scale(1.1);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.openchatimg2__love:hover i{
+    will-change: transform; 
+    animation: heartbeat 1s ease-in-out infinite;
+}

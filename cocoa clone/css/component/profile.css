@@ -1,0 +1,69 @@
+.profile-main{
+    display: flex;
+    margin: 10px 20px;
+}
+.profile-main__column{
+    display: flex;
+}
+.profile-main__column-name{
+    font-weight: 550;
+    position: relative;
+    left: 14px;
+    top: 17px;
+}
+.profile-main__column-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+.channel{
+    margin: 10px 20px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    align-items: center;
+}
+.channel-span1{
+    font-size: 16px;
+    opacity: 0.4;
+    font-weight: 500;
+}
+.channel-icon1{
+    opacity: 0.3;
+}
+.profile-main__column-image-s{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.small{
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    left: 14px;
+    top: 17px;
+    opacity: 0.9;
+}
+.profile-main-s{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+
+}
+.profile-main__column-s{
+    display: flex;
+}
+.channelspan{
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.5;
+    position: relative;
+    top: 23px;
+    right: 8px;
+}
+.channelicon1{
+    position: relative;
+    top: 15px;
+    opacity: 0.3;
+}
